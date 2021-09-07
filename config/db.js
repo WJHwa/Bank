@@ -1,11 +1,11 @@
 const mysql = require("mysql");
 
 const db = mysql.createConnection({
-  host: "172.30.1.42",
+  host: "127.0.0.1",
   database: "Bank",
   connectionLimit: 10,
-  user: "root",
-  password: "mariadb2",
+  user: "비밀",
+  password: "",
   multipleStatements: true,
 });
 
